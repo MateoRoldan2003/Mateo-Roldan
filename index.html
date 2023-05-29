@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso Web</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg colorEncabezado">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logo" src="images/ae94d1304f29ecf15ee0cac5042be2db.png"
+          alt="Logo de empresa de coderhouse"></a>
+      <button class="navbar-toggler botoncito" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link enlacesBasquiat" href="page/sobrenosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlacesBasquiat" href="page/faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlacesBasquiat" href="page/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlacesBasquiat" href="page/contacto.html">Contacto</a>
+          </li>
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Iniciar Sesion
+          </button>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresa tus Datos</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Dirección de Correo
+                      Electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con
+                      nadie más.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">Aceptar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+    </div>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" class="noticias">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/imagen-numero-uno.jpg" class="d-block w-100" alt="Imagen de una persona con monitores y herramientas en la espalda">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Disponibilidad 24/7 </h5>
+            <p>Si tenes alguna consulta/duda podes escribirnos via Whatsapp.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/imagen-numero-dos.webp" class="d-block w-100" alt="Una laptop con muchos lenguajes de programacion y diseño web">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Todo tipo de lenguaje</h5>
+            <p>Nos concentramos a fomentar la enseñansa de los lenguajes basicos de la programacion para que los
+              estudiantes tengan la mejor experiencia.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/imagen-numero-tres.jpg" class="d-block w-100" alt="Un dedo señalando a una Laptop">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Deberes para hacer</h5>
+            <p>Las tareas que se mandan son para que los alumnos estudien por su cuenta y se vea reflejado en clase,
+              para darle mas informacion y .</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Atras</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </main>
+
+  <div class="botonWhatsApp">
+    <a href="https://api.whatsapp.com/send?phone=" target="_blank"><img src="images/logoWhatsapp.png"
+        alt="Link a WhatsApp"></a>
+  </div>
+  
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.Instagram.com/" class="social-icon" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/" class="social-icon" target="_blank">Facebook</a>
+      <a href="https://www.youtube.com/" class="social-icon" target="_blank">Youtube</a>
+      <a href="https://www.twitter.com/" class="social-icon" target="_blank">Twitter</a>
+    </div>
+    <div class="text-center">
+      <p>&copy; Copyright "Empresa" - 2023. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
