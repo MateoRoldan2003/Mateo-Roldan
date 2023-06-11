@@ -1,44 +1,11 @@
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  background-color: white;
-}
-
-footer {
-  margin-top: auto;
-}
-
-.navbar {
-    font-weight: bold;
-}
-
-.logo {
-    width: 200px;
-    margin-left: 20px;
-}
-
-.info {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-position: center center;
-  
-}
-
 .ayuda a {
   color: black;
 }
 
 .ayuda {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   background-position: center center;
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .preg {
@@ -47,9 +14,13 @@ footer {
   background-position: center center;
 }
 
+.pregu {
+  background-color: #1b1b1b;
+  color: white;
+}
+
 .imagenes {
   text-align: center;
-  
 }
 
 .img {
@@ -62,25 +33,28 @@ footer {
   height: 350px;
 }
 
-.quien-somos {
-  background-color: #1b1b1b;
-  color: white;
-}
-
 .photos {
   background-color: #1b1b1b;
 }
 
-.pregu {
-  background-color: #1b1b1b;
-  color: white;
+html {
+  height: 100%;
 }
 
-.botonWhatsApp img {
-  width: 70px;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: rgb(231, 231, 231);
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.logo {
+  width: 200px;
+  margin-left: 20px;
 }
 
 footer {
@@ -88,13 +62,13 @@ footer {
   bottom: 0;
   left: 0;
   padding: 2rem 8%;
-  background-color: white;
+  background-color: rgb(231, 231, 231);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: auto;
 }
-
 
 footer a {
   display: inline;
@@ -106,7 +80,7 @@ footer a {
   padding: 10px 10px;
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: rgb(231, 231, 231);
 }
 
 .logoFooter {
@@ -122,13 +96,30 @@ footer a {
   margin-bottom: 1rem;
 }
 
+.info {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-position: center center;
+}
 
+#quien-somos {
+  color: white;
+  background-color: #1b1b1b;
+}
 
+.botonWhatsApp img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
 
+.preg {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  
+.ayuda {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-
-
-  
-
+/*# sourceMappingURL=style.css.map */

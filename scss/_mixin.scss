@@ -1,0 +1,14 @@
+@mixin parrafos {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preg {
+    @include parrafos;
+}
+
+.ayuda {
+    @include parrafos;
+}
+
+
+
